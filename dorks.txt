@@ -1,0 +1,14 @@
+# One dork per line. Lines starting with # are ignored.
+# These are generic, non-targeted examples for demonstrating the automation —
+# swap in your actual investigation's dorks when running this for real work.
+
+site:linkedin.com/in "OSINT analyst"
+filetype:pdf "annual report" 2025
+intitle:"index of" "backup"
+site:github.com "api_key" -example -sample
+inurl:admin intitle:login
+site:pastebin.com "password"
+filetype:xlsx "employee list"
+site:twitter.com OR site:x.com "leaked"
+intext:"internal use only" filetype:doc
+site:*.gov filetype:pdf "confidential"

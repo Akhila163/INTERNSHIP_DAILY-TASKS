@@ -1,0 +1,53 @@
+Search automation run — backend: scrape — 20260713_131617
+======================================================================
+
+DORK: site:linkedin.com/in "OSINT analyst"
+Time: 2026-07-13T13:15:57  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22OSINT+analyst%22&num=5&hl=en&start=0&safe=active
+
+DORK: filetype:pdf "annual report" 2025
+Time: 2026-07-13T13:15:59  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=filetype%3Apdf+%22annual+report%22+2025&num=5&hl=en&start=0&safe=active
+
+DORK: intitle:"index of" "backup"
+Time: 2026-07-13T13:16:01  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=intitle%3A%22index+of%22+%22backup%22&num=5&hl=en&start=0&safe=active
+
+DORK: site:github.com "api_key" -example -sample
+Time: 2026-07-13T13:16:03  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Agithub.com+%22api_key%22+-example+-sample&num=5&hl=en&start=0&safe=active
+
+DORK: inurl:admin intitle:login
+Time: 2026-07-13T13:16:05  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=inurl%3Aadmin+intitle%3Alogin&num=5&hl=en&start=0&safe=active
+
+DORK: site:pastebin.com "password"
+Time: 2026-07-13T13:16:07  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Apastebin.com+%22password%22&num=5&hl=en&start=0&safe=active
+
+DORK: filetype:xlsx "employee list"
+Time: 2026-07-13T13:16:09  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=filetype%3Axlsx+%22employee+list%22&num=5&hl=en&start=0&safe=active
+
+DORK: site:twitter.com OR site:x.com "leaked"
+Time: 2026-07-13T13:16:11  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Atwitter.com+OR+site%3Ax.com+%22leaked%22&num=5&hl=en&start=0&safe=active
+
+DORK: intext:"internal use only" filetype:doc
+Time: 2026-07-13T13:16:13  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=intext%3A%22internal+use+only%22+filetype%3Adoc&num=5&hl=en&start=0&safe=active
+
+DORK: site:*.gov filetype:pdf "confidential"
+Time: 2026-07-13T13:16:15  |  Results: 1
+----------------------------------------------------------------------
+  [ERROR] 403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3A%2A.gov+filetype%3Apdf+%22confidential%22&num=5&hl=en&start=0&safe=active
+

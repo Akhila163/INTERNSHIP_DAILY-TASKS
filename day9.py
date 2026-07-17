@@ -1,0 +1,102 @@
+[
+  {
+    "dork": "site:linkedin.com/in \"OSINT analyst\"",
+    "timestamp": "2026-07-13T13:15:57",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22OSINT+analyst%22&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "filetype:pdf \"annual report\" 2025",
+    "timestamp": "2026-07-13T13:15:59",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=filetype%3Apdf+%22annual+report%22+2025&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2026-07-13T13:16:01",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=intitle%3A%22index+of%22+%22backup%22&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "site:github.com \"api_key\" -example -sample",
+    "timestamp": "2026-07-13T13:16:03",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Agithub.com+%22api_key%22+-example+-sample&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "inurl:admin intitle:login",
+    "timestamp": "2026-07-13T13:16:05",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=inurl%3Aadmin+intitle%3Alogin&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "site:pastebin.com \"password\"",
+    "timestamp": "2026-07-13T13:16:07",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Apastebin.com+%22password%22&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "filetype:xlsx \"employee list\"",
+    "timestamp": "2026-07-13T13:16:09",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=filetype%3Axlsx+%22employee+list%22&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "site:twitter.com OR site:x.com \"leaked\"",
+    "timestamp": "2026-07-13T13:16:11",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3Atwitter.com+OR+site%3Ax.com+%22leaked%22&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "intext:\"internal use only\" filetype:doc",
+    "timestamp": "2026-07-13T13:16:13",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=intext%3A%22internal+use+only%22+filetype%3Adoc&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  },
+  {
+    "dork": "site:*.gov filetype:pdf \"confidential\"",
+    "timestamp": "2026-07-13T13:16:15",
+    "result_count": 1,
+    "results": [
+      {
+        "error": "403 Client Error: Forbidden for url: https://www.google.com/search?q=site%3A%2A.gov+filetype%3Apdf+%22confidential%22&num=5&hl=en&start=0&safe=active"
+      }
+    ]
+  }
+]
